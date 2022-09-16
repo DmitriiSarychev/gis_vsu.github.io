@@ -76,7 +76,7 @@ var lyr__5 = new ol.layer.Vector({
                 source:jsonSource__5, 
                 style: style__5,
                 interactive: true,
-                title: '<img src="styles/legend/_5.png" /> Береза: изолинии флуктуирующей асимметрии'
+                title: '<img src="styles/legend/5.png" /> Береза: изолинии флуктуирующей асимметрии'
             });
 var format__6 = new ol.format.GeoJSON();
 var features__6 = format__6.readFeatures(json__6, 
@@ -90,7 +90,7 @@ var lyr__6 = new ol.layer.Vector({
                 source:jsonSource__6, 
                 style: style__6,
                 interactive: true,
-                title: '<img src="styles/legend/_6.png" /> Береза: точки отбора листьев'
+                title: '<img src="styles/legend/6.png" /> Береза: точки отбора листьев'
             });
 var lyr__7 = new ol.layer.Image({
                             opacity: 1,
@@ -144,7 +144,7 @@ var lyr__10 = new ol.layer.Vector({
                 source:jsonSource__10, 
                 style: style__10,
                 interactive: true,
-                title: '<img src="styles/legend/_10.png" /> Тополь: изолинии флуктуирующей асимметрии'
+                title: '<img src="styles/legend/10.png" /> Тополь: изолинии флуктуирующей асимметрии'
             });
 var format__11 = new ol.format.GeoJSON();
 var features__11 = format__11.readFeatures(json__11, 
@@ -158,7 +158,7 @@ var lyr__11 = new ol.layer.Vector({
                 source:jsonSource__11, 
                 style: style__11,
                 interactive: true,
-                title: '<img src="styles/legend/_11.png" /> Тополь: точки отбора листьев'
+                title: '<img src="styles/legend/11.png" /> Тополь: точки отбора листьев'
             });
 
 lyr_Google_0.setVisible(false);lyr_OpenStreetMap_1.setVisible(true);lyr__2.setVisible(true);lyr_2_3.setVisible(true);lyr__4.setVisible(false);lyr__5.setVisible(false);lyr__6.setVisible(true);lyr__7.setVisible(false);lyr_2_8.setVisible(false);lyr__9.setVisible(false);lyr__10.setVisible(false);lyr__11.setVisible(false);
