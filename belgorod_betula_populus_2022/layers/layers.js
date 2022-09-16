@@ -30,7 +30,7 @@ var lyr__2 = new ol.layer.Image({
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/_2.png",
+                               url: "./layers/2.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
@@ -57,7 +57,7 @@ var lyr__4 = new ol.layer.Image({
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/_4.png",
+                               url: "./layers/4.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
@@ -98,7 +98,7 @@ var lyr__7 = new ol.layer.Image({
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/_7.png",
+                               url: "./layers/7.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
@@ -125,7 +125,7 @@ var lyr__9 = new ol.layer.Image({
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/_9.png",
+                               url: "./layers/9.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
