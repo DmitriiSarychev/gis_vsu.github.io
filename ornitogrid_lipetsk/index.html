@@ -43,7 +43,7 @@
             zoomControl:true, maxZoom:19, minZoom:6
         }).fitBounds([[51.74943533822408,37.441094430099184],[53.65317218288671,41.16305330056904]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/DmitriiSarychev/gis_vsu.github.io/raw/main/ornitogrid_lipetsk/kml_for_download/%D0%A1%D0%B5%D1%82%D0%BA%D0%B0%201x1%20%D0%BA%D0%BC%20%D0%B3.%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA.kmz" title="Скачать сетку 1x1 км на г. Липецк в формате kmz для Google Earth">1X1km</a> &middot; <a href="https://github.com/DmitriiSarychev/gis_vsu.github.io/raw/main/ornitogrid_lipetsk/kml_for_download/%D0%A1%D0%B5%D1%82%D0%BA%D0%B0%2010x10%20%D0%BA%D0%BC%20%D0%9B%D0%B8%D0%BF%D0%B5%D1%86%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB.kmz" title="Скачать сетку 10x10 км на Липецкую обл. в формате kmz для Google Earth">10X10km</a> &middot; <a href="https://github.com/DmitriiSarychev/gis_vsu.github.io/raw/main/ornitogrid_lipetsk/kml_for_download/%D0%A1%D0%B5%D1%82%D0%BA%D0%B0%2050x50%20%D0%BA%D0%BC%20%D0%95%D0%A2%D0%A0%20EBBA2.kmz" title="Скачать сетку 50x50 км на ЕТР в формате kmz для Google Earth">50x50км</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
         var bounds_group = new L.featureGroup([]);
