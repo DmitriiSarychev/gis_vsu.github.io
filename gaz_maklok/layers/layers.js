@@ -53,7 +53,7 @@ var lyr__3 = new ol.layer.Vector({
     <img src="styles/legend/3_1.png" /> сосна (8-20 м)<br />\
     <img src="styles/legend/3_2.png" /> сосна, береза, тополь (3-6 м)<br />\
     <img src="styles/legend/3_3.png" /> сосна (1-3 м)<br />\
-    <img src="styles/legend/3_4.png" /> сухостой (15 м)<br />\
+    <img src="styles/legend/3_4_.png" /> сухостой (15 м)<br />\
     <img src="styles/legend/3_5.png" /> клен, сосна (6 м)<br />\
     <img src="styles/legend/3_6.png" /> клен, береза, тополь (3-6 м)<br />\
     <img src="styles/legend/3_7.png" /> луг с кустами клена яблони, сосны<br />\
@@ -99,7 +99,7 @@ var lyr__6 = new ol.layer.Vector({
                 source:jsonSource__6, 
                 style: style__6,
                 interactive: false,
-                title: '<img src="styles/legend/_6.png" /> Граница съемки'
+                title: '<img src="styles/legend/6.png" /> Граница съемки'
             });
 
 lyr_OpenTopoMap_0.setVisible(false);lyr_ESRISatellite_1.setVisible(false);lyr_GoogleSatellite_2.setVisible(true);lyr__3.setVisible(true);lyr_3_4.setVisible(true);lyr__5.setVisible(true);lyr__6.setVisible(true);
