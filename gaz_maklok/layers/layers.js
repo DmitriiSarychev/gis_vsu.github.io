@@ -49,15 +49,15 @@ var lyr__3 = new ol.layer.Vector({
                 style: style__3,
                 interactive: true,
     title: 'Растительность<br />\
-    <img src="styles/legend/_3_0.png" /> сосна (18-23 м)<br />\
-    <img src="styles/legend/_3_1.png" /> сосна (8-20 м)<br />\
-    <img src="styles/legend/_3_2.png" /> сосна, береза, тополь (3-6 м)<br />\
-    <img src="styles/legend/_3_3.png" /> сосна (1-3 м)<br />\
-    <img src="styles/legend/_3_4.png" /> сухостой (15 м)<br />\
-    <img src="styles/legend/_3_5.png" /> клен, сосна (6 м)<br />\
-    <img src="styles/legend/_3_6.png" /> клен, береза, тополь (3-6 м)<br />\
-    <img src="styles/legend/_3_7.png" /> луг с кустами клена яблони, сосны<br />\
-    <img src="styles/legend/_3_8.png" /> камыш, клен, береза<br />'
+    <img src="styles/legend/3_0.png" /> сосна (18-23 м)<br />\
+    <img src="styles/legend/3_1.png" /> сосна (8-20 м)<br />\
+    <img src="styles/legend/3_2.png" /> сосна, береза, тополь (3-6 м)<br />\
+    <img src="styles/legend/3_3.png" /> сосна (1-3 м)<br />\
+    <img src="styles/legend/3_4.png" /> сухостой (15 м)<br />\
+    <img src="styles/legend/3_5.png" /> клен, сосна (6 м)<br />\
+    <img src="styles/legend/3_6.png" /> клен, береза, тополь (3-6 м)<br />\
+    <img src="styles/legend/3_7.png" /> луг с кустами клена яблони, сосны<br />\
+    <img src="styles/legend/3_8.png" /> камыш, клен, береза<br />'
         });
 var format_3_4 = new ol.format.GeoJSON();
 var features_3_4 = format_3_4.readFeatures(json_3_4, 
@@ -85,7 +85,7 @@ var lyr__5 = new ol.layer.Vector({
                 source:jsonSource__5, 
                 style: style__5,
                 interactive: true,
-                title: '<img src="styles/legend/_5.png" /> ПК'
+                title: '<img src="styles/legend/5.png" /> ПК'
             });
 var format__6 = new ol.format.GeoJSON();
 var features__6 = format__6.readFeatures(json__6, 
