@@ -8,7 +8,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+    attributions: ' &middot; <a href="https://www.vsu.ru/ru/university/structure/faculties/geogr.html">© ГГиТ ВГУ</a>',
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
@@ -20,7 +20,7 @@ var wms_layers = [];
             
             
             source: new ol.source.XYZ({
-    attributions: ' &middot; <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
+    attributions: ' &middot; <a href="https://www.vsu.ru/ru/university/structure/faculties/geogr.html">© ГГиТ ВГУ</a>',
                 url: 'https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}'
             })
         });
@@ -99,16 +99,16 @@ var lyr_50x50_5 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/50x50_5.png" /> Сетка обследования (квадраты 50x50 м)'
             });
-var format__6 = new ol.format.GeoJSON();
-var features__6 = format__6.readFeatures(json__6, 
+var format_6 = new ol.format.GeoJSON();
+var features_6 = format_6.readFeatures(json_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource__6 = new ol.source.Vector({
+var jsonSource_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource__6.addFeatures(features__6);
-var lyr__6 = new ol.layer.Heatmap({
+jsonSource_6.addFeatures(features_6);
+var lyr_6 = new ol.layer.Heatmap({
                 declutter: false,
-                source:jsonSource__6, 
+                source:jsonSource_6, 
                 radius: 8 * 2,
                 gradient: ['#404040', '#ffff00', '#ffcc00', '#f44900', '#ea4207', '#8b0051'],
                 blur: 15,
@@ -159,8 +159,8 @@ var lyr_703_7 = new ol.layer.Vector({
     <img src="styles/legend/703_7_27.png" /> Щирица запрокинутая (8)<br />'
         });
 
-lyr_OSM_0.setVisible(true);lyr_Google_1.setVisible(false);lyr_S1lnN_2.setVisible(false);lyr_S_3.setVisible(false);lyr_N_4.setVisible(false);lyr_50x50_5.setVisible(false);lyr__6.setVisible(false);lyr_703_7.setVisible(true);
-var layersList = [lyr_OSM_0,lyr_Google_1,lyr_S1lnN_2,lyr_S_3,lyr_N_4,lyr_50x50_5,lyr__6,lyr_703_7];
+lyr_OSM_0.setVisible(true);lyr_Google_1.setVisible(false);lyr_S1lnN_2.setVisible(false);lyr_S_3.setVisible(false);lyr_N_4.setVisible(false);lyr_50x50_5.setVisible(false);lyr_6.setVisible(false);lyr_703_7.setVisible(true);
+var layersList = [lyr_OSM_0,lyr_Google_1,lyr_S1lnN_2,lyr_S_3,lyr_N_4,lyr_50x50_5,lyr_6,lyr_703_7];
 lyr_S1lnN_2.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
 lyr_S_3.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
 lyr_N_4.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
