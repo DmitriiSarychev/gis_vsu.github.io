@@ -106,7 +106,7 @@ var jsonSource_l_6 = new ol.source.Vector({
     attributions: ' ',
 });
 jsonSource_l_6.addFeatures(features_l_6);
-var lyr_6 = new ol.layer.Heatmap({
+var lyr_l_6 = new ol.layer.Heatmap({
                 declutter: false,
                 source:jsonSource_l_6, 
                 radius: 8 * 2,
