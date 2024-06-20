@@ -99,16 +99,16 @@ var lyr_50x50_5 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/50x50_5.png" /> Сетка обследования (квадраты 50x50 м)'
             });
-var format_6 = new ol.format.GeoJSON();
-var features_6 = format_6.readFeatures(json_6, 
+var format_l_6 = new ol.format.GeoJSON();
+var features_l_6 = format_l_6.readFeatures(json_l_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_6 = new ol.source.Vector({
+var jsonSource_l_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_6.addFeatures(features_6);
+jsonSource_6.addFeatures(features_l_6);
 var lyr_6 = new ol.layer.Heatmap({
                 declutter: false,
-                source:jsonSource_6, 
+                source:jsonSource_l_6, 
                 radius: 8 * 2,
                 gradient: ['#404040', '#ffff00', '#ffcc00', '#f44900', '#ea4207', '#8b0051'],
                 blur: 15,
