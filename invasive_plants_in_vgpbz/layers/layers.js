@@ -105,7 +105,7 @@ var features_l_6 = format_l_6.readFeatures(json_l_6,
 var jsonSource_l_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_6.addFeatures(features_l_6);
+jsonSource_l_6.addFeatures(features_l_6);
 var lyr_6 = new ol.layer.Heatmap({
                 declutter: false,
                 source:jsonSource_l_6, 
