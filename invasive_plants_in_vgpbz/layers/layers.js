@@ -159,8 +159,8 @@ var lyr_703_7 = new ol.layer.Vector({
     <img src="styles/legend/703_7_27.png" /> Щирица запрокинутая (8)<br />'
         });
 
-lyr_OSM_0.setVisible(true);lyr_Google_1.setVisible(false);lyr_S1lnN_2.setVisible(false);lyr_S_3.setVisible(false);lyr_N_4.setVisible(false);lyr_50x50_5.setVisible(false);lyr_6.setVisible(false);lyr_703_7.setVisible(true);
-var layersList = [lyr_OSM_0,lyr_Google_1,lyr_S1lnN_2,lyr_S_3,lyr_N_4,lyr_50x50_5,lyr_6,lyr_703_7];
+lyr_OSM_0.setVisible(true);lyr_Google_1.setVisible(false);lyr_S1lnN_2.setVisible(false);lyr_S_3.setVisible(false);lyr_N_4.setVisible(false);lyr_50x50_5.setVisible(false);lyr_l_6.setVisible(false);lyr_703_7.setVisible(true);
+var layersList = [lyr_OSM_0,lyr_Google_1,lyr_S1lnN_2,lyr_S_3,lyr_N_4,lyr_50x50_5,lyr_l_6,lyr_703_7];
 lyr_S1lnN_2.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
 lyr_S_3.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
 lyr_N_4.set('fieldAliases', {'fid': 'fid', 'Name': 'Name', 'Количество точек': 'Количество точек', 'Количество видов': 'Количество видов', 'Индекс Маргалефа': 'Индекс Маргалефа', });
